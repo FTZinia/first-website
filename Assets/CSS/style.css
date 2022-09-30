@@ -1,0 +1,143 @@
+:root{
+    --primary-color:#FF5959;
+    --secondary-color:#707070;
+    --white-color:#FFFFFF;
+    --inter:'Inter', sans-serif;
+    --poppins:'Poppins', sans-serif;
+    --lobster:'Lobster', cursive;
+    --manrope: 'Manrope', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Header */
+.header{
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%) , url(../img/Rectangle\ 237.png);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .header-content{
+    Width:826px;
+    Height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header .header-content h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-weight: 700px;
+    color: var(--white-color);
+    text-align: center;
+}
+.header .header-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400px;
+    color: var(--white-color);
+    margin: 20px 0px 30px 0px;
+    text-align: center;
+}
+.button{
+    height: 56px;
+    width: 160px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+}
+/* donate section */
+.donate-section > h1{
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 140px;
+}
+.donate-section > p{
+    height: 56px;
+    width: 691px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.donate-section .money-section{
+    display: flex;
+    justify-content: center;
+}
+.donate-section .money-section .money{
+    display: flex;
+}
+.donate-section .money-section .money > div{
+    height: 123px;
+    width: 135px;
+    border-radius: 5px;
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--secondary-color);
+    text-align: center;
+    line-height: 123px;
+    margin-left: 22px;
+    border: 2px solid transparent;
+    margin-bottom: 10px;
+    background-color: #FAFAFA;
+
+}
+.donate-section .money-section .money > div:hover{
+   background-color: #FAFAFA ;
+   color: var(--primary-color);
+   cursor: pointer;
+   border-radius: 5px;
+   border: 2px solid var(--primary-color);
+}
+.donate-section .money-section .money .tk{
+    color: var(--primary-color);
+    background-color: #FFEEEE;
+    border: 2px solid var(--primary-color);
+}
+.donate-section .money-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.donate-section .money-input input{
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    text-align: center;
+    height: 40px;
+    color: #B3B3B3;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+    width: 765px;
+    margin-bottom: 30px;
+
+}
+.donate-section .money-input input::placeholder{
+    color: #B3B3B3;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
