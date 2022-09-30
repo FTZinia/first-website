@@ -140,4 +140,25 @@
     font-size: 18px;
     text-align: center;
 }
+/* donate plan */
+.donate-plan-section .donate-plan-contents h1{
+   
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 130px;
+}
+.donate-plan-section .donate-plan-contents p{
+   
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--secondary-color);
+    width: 691px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
 
