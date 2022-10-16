@@ -204,4 +204,188 @@
     background-color:#FFF4D6;
     border-radius: 5px;
 }
+/* depend section */
+
+.depend-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.depend-section .depend-section-contents h1{
+    width: 492px;
+    height: 108px;
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.depend-section .depend-section-contents p{
+    width: 482px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+.depend-section .depend-section-contents button{
+    width: 230px;
+    height: 56px;
+    background-color: var(--primary-color);
+    font-family: var(--inter);
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+.depend-section .depend-section-img{
+    margin-left: 83px;
+   
+}
+/* servive section */
+
+.servive-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 152px;
+}
+.servive-section .servive-section-img{
+    margin-right: 94px;
+   
+}
+
+.servive-section .servive-section-contents h1{
+    width: 492px;
+    height: 108px;
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.servive-section .servive-section-contents p{
+    width: 482px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+.servive-section .servive-section-contents button{
+    width: 230px;
+    height: 56px;
+    background-color: var(--primary-color);
+    font-family: var(--inter);
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 30px;
+
+}
+
+/* update section */
+
+.update-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.update-section .update-section-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-section .update-section-contents h1{
+    width: 691px;
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 130px;
+}
+.update-section .update-section-contents p{
+    width: 691px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-top: 20px;
+}
+.update-section .update-section-cards{
+    width: 809px;
+    height: 200px;
+    background-color: #FFF4D6;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.update-section .update-section-cards .form input{
+    width: 275px;
+    height: 48px;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 17px;
+    color: #AA9F9F;
+    
+}
+.update-section .update-section-cards .form input::placeholder{
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 17px;
+    color: #AA9F9F;
+    
+}
+.update-section .update-section-cards .form button{
+    width: 157px;
+    height: 48px;
+    background-color: var(--primary-color);
+    border: none;
+    color: #FFFFFF;
+    font-family: var(--roboto);
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+}
+/* footer */
+.footer{
+    height: 177px;
+    background-color: #0B0D17;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-content{
+    
+}
+.footer .footer-content h1{
+    font-family: var(--lobster);
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-top: 43px;
+}
+.footer .footer-content p{
+    font-family: var(--manrope);
+    font-weight: 400;
+    font-size: 14px;
+    color:  #D9DBE1;
+    text-align: center;
+    margin-bottom: 42px;
+    margin-top: 24px;
+}
 
