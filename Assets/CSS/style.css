@@ -369,9 +369,6 @@
     justify-content: center;
     align-items: center;
 }
-.footer .footer-content{
-    
-}
 .footer .footer-content h1{
     font-family: var(--lobster);
     font-weight: 400;
